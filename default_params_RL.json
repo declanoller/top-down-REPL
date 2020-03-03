@@ -1,0 +1,24 @@
+{
+    "alpha": 1,
+    "lr": 0.0001,
+    "conv_layer_input": false,
+    "print_layer_details": false,
+    "log_prob_fn": "sum",
+    "log_weights_grads": false,
+    "before_RL_grids_trees": true,
+    "train_batches": 1000,
+    "batch_size": 32,
+    "N_side": 12,
+    "N_hidden": 1024,
+    "repeat_single": false,
+    "load_model": true,
+    "optimize_nodes": "all",
+    "force_rect": true,
+    "cutoff_node_R": "zero",
+    "save_losses_data": true,
+    "optimize_V": false,
+    "N_max_terms": 7,
+    "RL_eval_episodes": true,
+    "no_adv": false
+
+}

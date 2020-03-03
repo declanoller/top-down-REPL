@@ -1,0 +1,5 @@
+output/*
+misc/*
+*__pycache__*
+saved_output/*
+saved_models/*

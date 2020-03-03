@@ -1,0 +1,22 @@
+{
+    "canv_dist": "bernoulli",
+    "PT_compound": true,
+    "pretrain_load_model": false,
+    "save_model": true,
+    "save_model_locally" : true,
+    "lr": 0.001,
+    "conv_layer_input": false,
+    "print_layer_details": false,
+    "PT_op": true,
+    "PT_params": true,
+    "PT_canv_1": true,
+    "PT_canv_2": true,
+    "log_weights_grads": false,
+    "log_prob_fn": "sum",
+    "with_noise": true,
+    "pretrain_batches": 1000,
+    "batch_size": 32,
+    "N_side": 12,
+    "N_hidden": 1024,
+    "save_losses_data": true
+}
